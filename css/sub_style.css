@@ -1,0 +1,68 @@
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  background-color: #eee !important;
+}
+
+.modal-window {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 10px;
+  text-align: center;
+}
+
+.modal-window .modal-content {
+  padding: 30px 30px 15px;
+}
+
+.modal-window h1 {
+  font-size: 40px;
+}
+
+.modal-content h2, h3, p {
+  font-size: 30px;
+}
+
+.modal-content h2 {
+  background: #59b300;
+  padding: 0.8em;
+  color: #FFF;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.modal-content h3 {
+  border-bottom: dashed 2px #59b300;
+  margin: 20px 0;
+  padding-bottom: 8px;
+  font-weight: bold;
+}
+
+.modal-content input {
+  margin: 0 auto;
+}
+
+/*--------------------------------
+ボタン
+---------------------------------*/
+
+#btn {
+  display: inline-block;
+  border-radius: 5%;
+  font-size: 13pt;
+  text-align: center;
+  cursor: pointer;
+  padding: 12px;
+  background: #ffffff;
+  color: #66CDAA;
+  line-height: 1em;
+  transition: .1s;
+  border: 3px solid #66CDAA;
+  margin: 30px auto;
+  width: 100px; 
+  font-weight: bold;
+}
+
+#btn:hover {
+  color: #ffffff;
+  background: #66CDAA;
+}
